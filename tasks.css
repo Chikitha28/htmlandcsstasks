@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f7fb;
+    color: #222;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0px;
+    background-color: #fffcf0;
+}
+.mylogo{
+    font-size: 25px;
+    color:brown;
+    
+}
+.navbar ul {
+    display: flex;
+    list-style: none;
+    gap: 50px;
+}
+.navbar ul li a{
+    font-size: 20px;
+    color:rgb(171, 105, 66);
+}
+.profile-image img{
+    width:500px;
+    height: 600px;
+    border-radius: 50%;
+}
+.intro-sec{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+    padding: 60px 8%;
+    background-color: aliceblue;
+}
+.hero-content h1{
+  font-size: 60px;
+  color: brown;
+}
+.hero-content h3{
+  font-size: 50px;
+}
+.hero-content .create1{
+    font-size:40px;
+    color:black;
+    font-family: 'Times New Roman', Times, serif;
+}
+.hero-content .create{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.hero-content .btn-me{
+     padding:15px 20px;
+     text-decoration: none;
+     font-size: 20px;
+     background-color: rgb(197, 197, 50);
+     border-radius: 50%;
+     margin-top:10px;
+     font-family: 'Times New Roman', Times, serif;
+     display: inline-block;
+}
+.about-sec{
+    padding: 55px 10%;
+    text-align: center;
+     background-color: #fffcf0;
+}
+.about-sec h2{
+    text-align: start;
+    color: #cf1414;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.about-sec p{
+    text-align: start;
+    font-size: 20px;
+    max-width: 700px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.skills-sec{
+    padding: 50px 10%;
+     background-color: aliceblue;
+}
+.skills-sec h2{
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+     color: #cf1414;
+     gap: 20px;
+
+}
+.skills-sec .skills-Container{
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    margin-top: 20px;
+}
+.skills-sec .skills-Container .skills{
+    font-size: 20px;
+    font-family: 'Times New Roman',;
+    color: #5c0909;
+}
+.projects-sec{
+     padding: 50px 10%;
+     background-color: #fffcf0;
+}
+.projects-sec h2{
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #cf1414;
+    text-align: center;
+}
+.projects-sec .projects-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Contact-sec{
+    padding: 40px 10%; 
+    background-color: aliceblue;
+}
+.Contact-sec h2{
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #cf1414;
+    text-align: center;
+}
+
+.Contact-sec .details{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:80px;
+    margin-top: 20px;
+}
+.details p,a{
+    font-size: 20px;
+    color: #222;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: underline;
+}
+.footer{
+    padding: 10px 0px;
+}
+
+.footer p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: blue;
+    text-decoration: underline;
+}
